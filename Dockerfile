@@ -1,5 +1,5 @@
 # initalize from official image
-FROM docker.elastic.co/kibana/kibana:5.4.0
+FROM docker.elastic.co/kibana/kibana:5.6.3
 # un/install plugins
 RUN bin/kibana-plugin remove x-pack
 # add default config
